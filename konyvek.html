@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Library</title>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand btn btn-light text-dark" href="./index.html"
+        >Vissza a főoldalra</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./konyvek.html">Könyvek listája</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./new.html">Új könyv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kep.html">Borító módosítása</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <div class="container mt-4 text-light">
+      <h2>Könyvek listája</h2>
+      <p class="text-light">Minta adatok</p>
+
+      <table class="table table-striped table-hover books">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Cím</th>
+            <th>Szerző</th>
+            <th>Kiadás éve</th>
+            <th>Műfaj</th>
+            <th>Borító</th>
+            <th>Művelet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Egri csillagok</td>
+            <td>Gárdonyi Géza</td>
+            <td>1899</td>
+            <td>Történelmi</td>
+            <td>kepek/egri.jpg</td>
+            <td>
+              <button class="btn btn-outline-warning btn-sm">Törlés</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>A Pál utcai fiúk</td>
+            <td>Molnár Ferenc</td>
+            <td>1907</td>
+            <td>Regény</td>
+            <td>Nincs kép</td>
+            <td>
+              <button class="btn btn-outline-warning btn-sm">Törlés</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

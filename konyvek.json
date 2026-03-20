@@ -1,0 +1,18 @@
+[
+  {
+    "ID": "1",
+    "Cím": "Egri csillagok",
+    "Szerző": "Gárdonyi Géza",
+    "Kiadás éve": "1899",
+    "Műfaj": "Történelmi",
+    "Borító": "kepek/egri.jpg"
+  },
+  {
+    "ID": "2",
+    "Cím": "A Pál utcai fiúk",
+    "Szerző": "Molnár Ferenc",
+    "Kiadás éve": "1907",
+    "Műfaj": "Regény",
+    "Borító": "Nincs kép"
+  }
+]
