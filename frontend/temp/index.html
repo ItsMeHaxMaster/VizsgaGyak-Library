@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Könyvtári nyilvántartó</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./konyvtari.css">
+</head>
+
+<body>
+
+    <header class="d-flex align-items-start">
+        <div class="overlay container text-center text-light py-5 rounded-3 mt-3">
+
+            <h1>Könyvtári nyilvántartó rendszer</h1>
+
+            <p>Reszponzív weboldal (Bootstrap + saját CSS)</p>
+
+            <a href="konyvek_listaja.html" class="btn btn-light me-2">
+                Könyvek listája
+            </a>
+
+            <a href="uj_konyv.html" class="btn btn-outline-light">
+                Új könyv felvétele
+            </a>
+
+        </div>
+    </header>
+
+
+    <div class="container cards">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4>Lista</h4>
+                        <p>Könyvek listája a könyvtárban.</p>
+
+                        <a href="konyvek_listaja.html" class="btn btn-warning">
+                            Megnyitás
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4>Új könyv</h4>
+                        <p>Új könyv rögzítése.</p>
+
+                        <a href="uj_konyv.html" class="btn btn-warning">
+                            Megnyitás
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4>Borító</h4>
+                        <p>Könyv borítók módosítása.</p>
+
+                        <a href="./boritokep_modositas.html" class="btn btn-warning">
+                            Megnyitás
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

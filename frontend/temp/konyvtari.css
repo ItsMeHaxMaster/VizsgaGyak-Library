@@ -1,0 +1,105 @@
+:root {
+    --primary-bg-color: #1A0E05;
+    /* oldal, header bg */
+    --primary-text-color: #F5F0E0;
+    /* szöveg színe */
+    --card-bg-color: #2C1A0A;
+    /* kártyák háttérszíne */
+    --border-color: #6B4423;
+    /* kártyák szegélyszíne */
+    --secondary-text-color: #A08860;
+    /* kártyák szöveg színe */
+     --bs-table-bg:              #2C1A0A;
+  --bs-table-striped-bg:      #3A2410;
+  --bs-table-hover-bg:        #4A2F12;
+  --bs-table-border-color:    #6B4423;
+  --bs-table-color:           #F5F0E0;
+  --bs-table-striped-color:   #F5F0E0;
+  --bs-table-hover-color:     #F7D77A;
+  --bs-table-active-bg:       #4A2F12;
+  --bs-table-active-color:    #F7D77A;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+header {
+    background-image: url("kepek/library_header_banner.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(160, 136, 96, 0.5) !important;
+    color: var(--primary-text-color);
+    width: 80%;
+    height: 70%;
+}
+
+.cards {
+    margin-top: 40px;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    color: var(--secondary-text-color);
+    border: 1px solid var(--border-color);
+}
+
+
+/* Fejléc sor */
+.table thead th {
+  background-color: #1A0E05;
+  color: #F7D77A;
+  border-bottom: 2px solid #6B4423;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Cellahatár */
+.table td, .table th {
+  border-color: #6B4423;
+}
+
+/* Másodlagos szöveg (pl. meta adatok) */
+.table td.text-muted {
+  color: #A08860 !important;
+}
+/* Törzssorok alapszíne */
+.table tbody tr td {
+  background-color: #2C1A0A;
+  color: #F5F0E0;
+  border-color: #6B4423;
+}
+
+/* Csíkos sorok (.table-striped) */
+.table-striped tbody tr:nth-of-type(odd) td {
+  background-color: #3A2410;
+  color: #F5F0E0;
+}
+
+.table-striped tbody tr:nth-of-type(even) td {
+  background-color: #2C1A0A;
+  color: #F5F0E0;
+}
+
+/* Hover (.table-hover esetén) */
+.table-hover tbody tr:hover td {
+  background-color: #4A2F12;
+  color: #F7D77A;
+}
+
+/* Cellahatár */
+.table td, .table th {
+  border-color: #6B4423;
+}

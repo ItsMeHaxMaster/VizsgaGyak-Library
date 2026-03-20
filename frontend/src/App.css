@@ -1,0 +1,106 @@
+:root {
+  --primary-bg-color: #1a0e05;
+  /* oldal, header bg */
+  --primary-text-color: #f5f0e0;
+  /* szöveg színe */
+  --card-bg-color: #2c1a0a;
+  /* kártyák háttérszíne */
+  --border-color: #6b4423;
+  /* kártyák szegélyszíne */
+  --secondary-text-color: #a08860;
+  /* kártyák szöveg színe */
+  --bs-table-bg: #2c1a0a;
+  --bs-table-striped-bg: #3a2410;
+  --bs-table-hover-bg: #4a2f12;
+  --bs-table-border-color: #6b4423;
+  --bs-table-color: #f5f0e0;
+  --bs-table-striped-color: #f5f0e0;
+  --bs-table-hover-color: #f7d77a;
+  --bs-table-active-bg: #4a2f12;
+  --bs-table-active-color: #f7d77a;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg-color) !important;
+  color: var(--primary-text-color) !important;
+}
+
+header {
+  background-image: url("kepek/library_header_banner.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: var(--primary-text-color) !important;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(160, 136, 96, 0.5) !important;
+  color: var(--primary-text-color) !important;
+  width: 80%;
+  height: 70%;
+}
+
+.cards {
+  margin-top: 40px;
+}
+
+.card {
+  background-color: var(--card-bg-color) !important;
+  color: var(--secondary-text-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+/* Fejléc sor */
+.table thead th {
+  background-color: #1a0e05 !important;
+  color: #f7d77a !important;
+  border-bottom: 2px solid #6b4423 !important;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Cellahatár */
+.table td,
+.table th {
+  border-color: #6b4423 !important;
+}
+
+/* Másodlagos szöveg (pl. meta adatok) */
+.table td.text-muted {
+  color: #a08860 !important;
+}
+/* Törzssorok alapszíne */
+.table tbody tr td {
+  background-color: #2c1a0a !important;
+  color: #f5f0e0 !important;
+  border-color: #6b4423 !important;
+}
+
+/* Csíkos sorok (.table-striped) */
+.table-striped tbody tr:nth-of-type(odd) td {
+  background-color: #3a2410 !important;
+  color: #f5f0e0 !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) td {
+  background-color: #2c1a0a !important;
+  color: #f5f0e0 !important;
+}
+
+/* Hover (.table-hover esetén) */
+.table-hover tbody tr:hover td {
+  background-color: #4a2f12 !important;
+  color: #f7d77a !important;
+}
+
+/* Cellahatár */
+.table td,
+.table th {
+  border-color: #6b4423 !important;
+}
